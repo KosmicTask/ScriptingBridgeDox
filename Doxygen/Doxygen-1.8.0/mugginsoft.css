@@ -1,0 +1,28 @@
+#titlearea {
+	color:#DDD6B2;
+	background-color:#665540;
+}
+
+#projectname {
+	font-size:120%; 
+	color:white;
+}
+
+#titlearea table {
+	float:left;
+}
+
+#mugginsoft {
+	padding: 12px 0px 0px 30px;
+	margin:0px 30px 0px 30px; 
+	text-align:right;
+}
+
+#mugginsoft a {
+	color: white;
+}
+
+#mugginsoft span.kosmictask {
+	font-size:170%;
+}
+
