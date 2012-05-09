@@ -1,4 +1,6 @@
 *.zip
 html
 sources
+.DS_Store
+
 

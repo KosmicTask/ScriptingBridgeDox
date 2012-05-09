@@ -1,6 +1,6 @@
 #ScriptingBridgeDox
 
-[ScriptingBridge][scriptingbridge] headers and [Doxygen][doxygen] configuration for a range of Apple and third party OS X applications.
+An archive of [ScriptingBridge][scriptingbridge] headers and [Doxygen][doxygen] configuration for a range of Apple and third party OS X applications.
 
 Apple's [ScriptingBridge][scriptingbridge] (SB) is an application automation technology for [Cocoa languages][cocoa-languages].
 
