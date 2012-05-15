@@ -4,8 +4,6 @@ An archive of [ScriptingBridge][scriptingbridge] headers and [Doxygen][doxygen] 
 
 Apple's [ScriptingBridge][scriptingbridge] (SB) is an application automation technology for [Cocoa languages][cocoa-languages].
 
-The [sdp][sdp] tool is used to generate an appropriate Objective-C header from the application bundle. [sdp][sdp] is included as part of Apple's [Xcode][xcode] developer tool chain. When using Xcode 4 it will be necessary to install the command line tools under Preferences - Downloads - Components.
-
 The full [Doxygen][doxygen] generated documentation set and downloadable zip archives can be viewed at [Mugginsoft][mugginsoft].
 
 #Adding new SB application headers
@@ -23,7 +21,9 @@ Folder hierarchy template:
 
 #Generating SB headers using sdef and sdp
 
-The [sdp][sdp] tool is used in conjunction with the [sdef][sdef] tool to generate a ScriptingBridge header file from an application  bundle `appname.app`.
+The [sdp][sdp] tool is used in conjunction with the [sdef][sdef] tool to generate a ScriptingBridge header file from an application  bundle, say  `appname.app`.
+
+[sdp][sdp] is included as part of Apple's [Xcode][xcode] developer tool chain. When using Xcode 4 it will be necessary to install the command line tools under Preferences - Downloads - Components.
 
 	sdef "/path/to/appname.app" | sdp -fh -N appname -o appname.h 
 
