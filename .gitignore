@@ -2,5 +2,7 @@
 html
 sources
 .DS_Store
+*.tmp
+temp
 
 

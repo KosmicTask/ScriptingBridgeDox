@@ -1,4 +1,3 @@
-
 /*
  * Photoshop.h
  */
@@ -3170,5 +3169,4 @@ typedef enum PhotoshopPT23 PhotoshopPT23;
 - (SBObject *) moveTo:(SBObject *)to;  // Move object(s) to a new location
 
 @end
-
 
